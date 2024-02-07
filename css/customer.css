@@ -10,19 +10,28 @@ body{
 }
 :root{
     --cor_btn: #4A2127;
+    --cor_horver: #C75D40;
+    --cor_segundaria: #A84540;
+    --cor_terciaria: #182B24;
 }
 header{
+    width: 100%;
+    height: 250px;
+    background-color: var(--cor_terciaria);
     display: flex;
     padding-top: 40px;
+
 }
 header .logo{
     width: 30%;
-    height: 100px;
-
+    cursor: pointer;
     text-align: center;
 }
 header .logo:hover{
-    color: brown;
+    margin: 0 auto;
+    color: var(--cor_segundaria);
+    animation: 3s;
+
 }
 header nav{
     width: 70%;
@@ -40,5 +49,10 @@ header nav ul li a{
     text-decoration: none;
     font-size: 25px;
     font-weight: 700;
-
+    font-style: normal;
+    color: #fff;
+}
+header nav ul li a:hover{
+    color: var(--cor_horver);
+    text-decoration:  underline;
 }
