@@ -16,19 +16,20 @@ body{
 }
 header{
     width: 100%;
-    height: 250px;
+    height: 150px;
     background-color: var(--cor_terciaria);
     display: flex;
     padding-top: 40px;
+    box-shadow: 1px 1px 10px black;
 
 }
 header .logo{
     width: 30%;
     cursor: pointer;
     text-align: center;
+    color: var(--cor_horver);
 }
 header .logo:hover{
-    margin: 0 auto;
     color: var(--cor_segundaria);
     animation: 3s;
 
